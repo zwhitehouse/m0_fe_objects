@@ -4,7 +4,7 @@
 
 - Fork this repository
 - Clone your copy of it to your local machine
-- Open in Atom
+- Open in VS Code
 
 ## Directions
 

@@ -5,7 +5,7 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
-foods = {
+var foods = {
   apples: 23, 
   grapes: 507, 
   eggs: 48
@@ -28,9 +28,9 @@ foods = {
 // YOUR CODE HERE
 
 
-#-------------------
+// -------------------
 // Part 2: Email
-#-------------------
+// -------------------
 
 
 // Think about all the pieces of information associated with one single email in your inbox.
@@ -51,9 +51,9 @@ foods = {
 // YOUR CODE HERE
 
 
-#-------------------
+// -------------------
 // Part 3: Many Emails - CHALLENGE!
-#-------------------
+// -------------------
 
 // LONG EXAMPLE:
 // Now that we've learned about Objects AND Arrays, we can combine them.
@@ -61,7 +61,7 @@ foods = {
 // Check out the following example of an array of Instagram posts:
 
 
-posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 
 // An Array of Objects is probably more realistic. Objects are a data type that's great
