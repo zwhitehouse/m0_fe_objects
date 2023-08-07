@@ -15,17 +15,27 @@ var foods = {
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.keys(foods));
+
+
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.values(foods)[1]);
+
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
+
+foods.chips = 10;
+console.log(foods);
 
 
 // -------------------
@@ -39,17 +49,31 @@ var foods = {
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+var email = {
+  sender: 'Chris Erickson',
+  subject: 'Meeting today!',
+  timestamp: '10:34am',
+  date: 'Monday, August 5th',
+  forwarded: ['Keesha', 'Thomas', 'Jeff'],
+}
+
+
 // Write code that logs your email object to the terminal.
+
+console.log(email);
 
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.keys(email));
+
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.values(email));
 
 // -------------------
 // Part 3: Many Emails - CHALLENGE!
@@ -99,3 +123,30 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = [
+{
+  sender: 'Chris Erickson',
+  subject: 'Meeting today!',
+  timestamp: '10:34am',
+  date: 'Monday, August 5th',
+  forwarded: ['Keesha', 'Thomas', 'Jeff'],
+},
+{
+  sender: 'Chris Erickson',
+  subject: 'Meeting today!',
+  timestamp: '10:34am',
+  date: 'Monday, August 5th',
+  forwarded: ['Keesha', 'Thomas', 'Jeff'],
+},
+{
+  sender: 'Chris Erickson',
+  subject: 'Meeting today!',
+  timestamp: '10:34am',
+  date: 'Monday, August 5th',
+  forwarded: ['Keesha', 'Thomas', 'Jeff'],
+},
+];
+
+console.log(email);
+
